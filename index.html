@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<input type="text" id="user">
+<br>
+<br>
+<input type="text" id="user2">
+<h1 id="ans">result</h1>
+<button onclick="add()" >add</button>
+<button onclick="sub()">sub</button>
+<button onclick="mult()">mullt</button>
+<button onclick="divide()">divide</button>
+  <script>
+
+
+
+function add(){
+    let a=document.getElementById("user").value
+    let b=document.getElementById("user2").value;
+    document.getElementById("ans").innerText=a+b;
+}
+
+function sub(){
+    let a=document.getElementById("user").value
+    let b=document.getElementById("user2").value;
+    document.getElementById("ans").innerText=a-b;
+}
+
+function mult(){
+    let a=document.getElementById("user").value
+    let b=document.getElementById("user2").value;
+    document.getElementById("ans").innerText=a*b;
+}
+
+function divide(){
+    let a=document.getElementById("user").value
+    let b=document.getElementById("user2").value;
+    document.getElementById("ans").innerText=a/b;
+}
+  </script>
+
+
+
+
+
+
+</body>
+</html>
